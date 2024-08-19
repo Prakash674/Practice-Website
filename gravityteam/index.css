@@ -145,9 +145,9 @@ body {
   /* grid-template-columns: 4; */
 }
 
-.data-details>* {
-  /* margin-bottom: 2rem; */
-}
+/* .data-details>* {
+
+} */
 
 .box1,
 .box2,
@@ -172,7 +172,7 @@ body {
   border-bottom: 3px solid linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
 }
 
-.box2 {}
+/* .box2 {} */
 
 .box-heading {
   font-weight: 400;
