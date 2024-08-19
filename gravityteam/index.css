@@ -1,0 +1,51 @@
+:root {
+  background-color: #141619;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mobile-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-nav {
+  width: 25px;
+  height: 25px;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+
+.logo {
+  width: 150px;
+  height: 40px;
+}
+
+.mobile-nav-list {
+  background-color: aliceblue;
+  position: relative;
+}
+
+.mobile-nav-tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  gap: 1rem
+}
+
+.tabs-list {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+
+}
+
+.tabs-list li {
+  padding: 0.5rem 1rem;
+}
+
+.tabs-list>li:hover {
+  background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
+  color: #fff;
+}
