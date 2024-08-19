@@ -3,6 +3,7 @@ const btn = document.getElementById("btn-toggle");
 btn.addEventListener("click", myFunction);
 
 function myFunction() {
-  const element = document.querySelector(".tabs-list");
-  element.classList.toggle("tabs-list");
+  document.querySelector(".mobile-nav-list").style.display = "block";
+  // element.classList.toggle("tabs-list");
+  // element.style.display = "block";
 }
