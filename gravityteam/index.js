@@ -1,9 +1,4 @@
-const btn = document.getElementById("btn-toggle");
-
-btn.addEventListener("click", myFunction);
-
-function myFunction() {
-  document.querySelector(".mobile-nav-list").style.display = "block";
-  // element.classList.toggle("tabs-list");
-  // element.style.display = "block";
-}
+document.getElementById("btn-toggle").addEventListener("click", function () {
+  this.classList.toggle("active");
+  document.querySelector(".mobile-nav-list").classList.toggle("active");
+});
