@@ -25,6 +25,7 @@
   }
 
   .logo {
+    max-width: 120px;
     max-height: 50px;
     /* Adjust based on your design */
   }
@@ -38,7 +39,7 @@
     display: none;
     /* Initially hidden for mobile */
     position: absolute;
-    top: 60px;
+    top: 48px;
     /* Adjust based on the height of the nav bar */
     left: 0;
     width: 100%;
@@ -522,11 +523,37 @@
   .footer {
     flex-direction: column;
     /* Stacks the sections vertically */
-    text-align: center;
+    text-align: left;
+  }
+
+  .footer-link {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+
+  }
+
+  .footer-link a {
+    color: #BCBCBC;
+    text-decoration: none;
+
   }
 
   .footer-box {
     margin: 10px 0;
     /* Adds spacing between stacked sections */
+  }
+
+  .terms {
+    color: #BCBCBC;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+  }
+
+  .terms p {
+    line-height: 20px;
   }
 }
