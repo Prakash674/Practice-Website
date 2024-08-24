@@ -451,9 +451,13 @@
     align-items: center; */
   }
 
-  /* .header-join-team,
-  .body-join-team {
-    flex: 1
-  } */
+  .header-join-team {
+    font-family: Inter;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 78px;
+    text-align: left;
+
+  }
 
 }
