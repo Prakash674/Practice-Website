@@ -452,12 +452,81 @@
   }
 
   .header-join-team {
-    font-family: Inter;
-    font-size: 2.4rem;
-    font-weight: 500;
+    font-size: 1.2rem;
+    font-weight: 300;
     line-height: 78px;
-    text-align: left;
+    text-align: center;
+  }
+
+  .body-join-team {
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 20px;
+    color: #E5E5E5;
+    text-align: center;
 
   }
 
+  .body-join-team>p {
+    padding-bottom: 10px;
+  }
+
+  .contact-us {
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    /* margin-bottom: 30px; */
+  }
+
+  .contact-us h4 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .contact-us p {
+
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  /* Distributes space between the boxes */
+  padding: 20px;
+  background-color: #141619;
+  color: #fff;
+  border-top: 1px solid #FFFFFF40;
+}
+
+.footer-box {
+  flex: 1;
+  /* Makes both sections equal width */
+  margin: 0 10px;
+  /* Adds spacing between the sections */
+}
+
+.footer-box p {
+  margin: 0;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    /* Stacks the sections vertically */
+    text-align: center;
+  }
+
+  .footer-box {
+    margin: 10px 0;
+    /* Adds spacing between stacked sections */
+  }
 }
